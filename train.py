@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 
-from .validation import *
-from .model import get_model
+from textdetection.validation import *
+from textdetection.model import get_model
 
 BATCH_SIZE = 4
 MAX_EPOCH = 100
-IMAGE_SIZE = (1024,1024)
+IMAGE_SIZE = (512,512)
 TRAIN_IM = 436
 VALIDATE_IM = 15
 
